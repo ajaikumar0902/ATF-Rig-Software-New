@@ -2,10 +2,10 @@
 ATF-Pump = "0.0.0.0"
 
 [ATF-Storage]
-ATF-Storage = "169.254.219.4"
+ATF-Storage = "1.1.1.20"
 
 [My Computer]
-My Computer = "169.254.30.58"
+My Computer = "192.168.18.92"
 
 [NI-PXIe-8861-0326AE8E]
 NI-PXIe-8861-0326AE8E = "169.254.92.239"

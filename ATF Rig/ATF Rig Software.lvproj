@@ -405,7 +405,7 @@
 	</Item>
 	<Item Name="ATF-Storage" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">ATF-Storage</Property>
-		<Property Name="alias.value" Type="Str">169.254.219.4</Property>
+		<Property Name="alias.value" Type="Str">1.1.1.20</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,7A2A;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7A2A</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
