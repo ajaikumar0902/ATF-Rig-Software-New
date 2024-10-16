@@ -1,0 +1,11 @@
+[My Computer]
+My Computer = "192.168.18.92"
+
+[NI-PXIe-8861-0326AE8E]
+NI-PXIe-8861-0326AE8E = "169.254.92.239"
+
+[NI-PXIe-8861-0326AE8F]
+NI-PXIe-8861-0326AE8F = "169.254.222.222"
+
+[RT CompactRIO Target]
+RT CompactRIO Target = "169.254.219.4"
