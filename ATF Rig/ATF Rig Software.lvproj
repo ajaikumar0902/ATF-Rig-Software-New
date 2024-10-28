@@ -358,6 +358,10 @@
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
@@ -371,6 +375,7 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
@@ -405,9 +410,9 @@
 	</Item>
 	<Item Name="ATF-Storage" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">ATF-Storage</Property>
-		<Property Name="alias.value" Type="Str">1.1.1.20</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,7A2A;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">7A2A</Property>
+		<Property Name="alias.value" Type="Str">169.254.19.218</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,79E0;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">79E0</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
@@ -784,6 +789,7 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AI Names.ctl" Type="VI" URL="../Storage cRIO/RT Controls/AI Names.ctl"/>
+			<Item Name="ATF Pump-Device List.vi" Type="VI" URL="../Pumb PXie/RT FGVs/ATF Pump-Device List.vi"/>
 			<Item Name="Check loop Error_R.vi" Type="VI" URL="../Storage cRIO/RT Support/Check loop Error_R.vi"/>
 			<Item Name="Data FIFO.ctl" Type="VI" URL="../Storage cRIO/RT Controls/Data FIFO.ctl"/>
 			<Item Name="DiplayPC comm ctrl.ctl" Type="VI" URL="../Storage cRIO/RT Controls/DiplayPC comm ctrl.ctl"/>
@@ -810,13 +816,16 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="RT_Global_R.vi" Type="VI" URL="../Storage cRIO/RT Support/RT_Global_R.vi"/>
 			<Item Name="SeCrTs-AO Data FGV.vi" Type="VI" URL="../Storage cRIO/RT FGVs/SeCrTs-AO Data FGV.vi"/>
+			<Item Name="SeCrTs-Create DO Waveform.vi" Type="VI" URL="../Pumb PXie/RT Support/RT SUB VIs/SeCrTs-Create DO Waveform.vi"/>
+			<Item Name="SeCrTs-DO Frequency  FGV.vi" Type="VI" URL="../Pumb PXie/RT Support/RT SUB VIs/SeCrTs-DO Frequency  FGV.vi"/>
+			<Item Name="SeCrTs-FGV Read write.ctl" Type="VI" URL="../Pumb PXie/RT Controls/SeCrTs-FGV Read write.ctl"/>
 			<Item Name="SeCrTs-RT_Global_R.vi" Type="VI" URL="../Pumb PXie/RT Support/SeCrTs-RT_Global_R.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="ATF-Pump" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">ATF-Pump</Property>
-		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
+		<Property Name="alias.value" Type="Str">169.254.31.109</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -853,6 +862,34 @@ AddOutputFilter chunkFilter
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
+
+NI.ServerName default
+DocumentRoot "$LVSERVER_DOCROOT"
+TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
+DirectoryIndex index.htm
+WorkerLimit 10
+InactivityTimeout 60
+
+LoadModulePath "$LVSERVER_MODULEPATHS"
+LoadModule LVAuth lvauthmodule
+LoadModule LVRFP lvrfpmodule
+
+#
+# Pipeline Definition
+#
+
+SetConnector netConnector
+
+AddHandler LVAuth
+AddHandler LVRFP
+
+AddHandler fileHandler ""
+
+AddOutputFilter chunkFilter
+
+
+</Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
