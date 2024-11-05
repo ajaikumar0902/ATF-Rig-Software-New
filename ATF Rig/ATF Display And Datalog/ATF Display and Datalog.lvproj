@@ -89,37 +89,9 @@
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="ACK Alarm.vi" Type="VI" URL="../../../SH_ATF_PROJECT_V2.4 FolderV2019/ATF Pumb Rig V2.4/Host/Source code/Sub VI&apos;s/PPSU Sub VIs/ACK Alarm.vi"/>
 			<Item Name="ATF1_ACQ.vi" Type="VI" URL="../Source Code/Globals/ATF1_ACQ.vi"/>
-			<Item Name="ATF1_Dataacq_PUMP.vi" Type="VI" URL="../Source Code/DAQ VIs/ATF1_Dataacq_PUMP.vi"/>
-			<Item Name="ATF1_Drive_messsage.vi" Type="VI" URL="../Source Code/Sub VI&apos;s/ATF1_Drive_messsage.vi"/>
-			<Item Name="ATF1_Drive_Read.vi" Type="VI" URL="../Source Code/Sub VI&apos;s/ATF1_Drive_Read.vi"/>
-			<Item Name="ATF1_File and Folder Info.vi" Type="VI" URL="../Source Code/Sub VI&apos;s/ATF1_File and Folder Info.vi"/>
-			<Item Name="ATF1_Indexing.vi" Type="VI" URL="../Source Code/Sub VI&apos;s/ATF1_Indexing.vi"/>
-			<Item Name="ATF1_NS_globals.vi" Type="VI" URL="../Source Code/Globals/ATF1_NS_globals.vi"/>
-			<Item Name="ATF_All Queue.vi" Type="VI" URL="../Source Code/ATF_Queues/ATF_All Queue.vi"/>
-			<Item Name="ATF_Config_Divider.vi" Type="VI" URL="../Source Code/Sub VI&apos;s/ATF_Config_Divider.vi"/>
-			<Item Name="ATF_Dequeue Message.vi" Type="VI" URL="../Source Code/ATF_Queues/ATF_Dequeue Message.vi"/>
 			<Item Name="ATF_Enqueue Message.vi" Type="VI" URL="../Source Code/ATF_Queues/ATF_Enqueue Message.vi"/>
-			<Item Name="ATF_Ex_master-slave_ELR_PSI_PSE_PSB.vi" Type="VI" URL="../../../SH_ATF_PROJECT_V2.4 FolderV2019/ATF Pumb Rig V2.4/Host/Source code/Sub VI&apos;s/PPSU Sub VIs/ATF_Ex_master-slave_ELR_PSI_PSE_PSB.vi"/>
-			<Item Name="ATF_Init_MS.vi" Type="VI" URL="../../../SH_ATF_PROJECT_V2.4 FolderV2019/ATF Pumb Rig V2.4/Host/Source code/Sub VI&apos;s/PPSU Sub VIs/ATF_Init_MS.vi"/>
-			<Item Name="ATF_Message Cluster.ctl" Type="VI" URL="../Source Code/ATF_Queues/ATF_Message Cluster.ctl"/>
-			<Item Name="ATF_Monitoring loop.vi" Type="VI" URL="../Source Code/Sub VI&apos;s/ATF_Monitoring loop.vi"/>
-			<Item Name="ATF_NS_Storage.vi" Type="VI" URL="../Source Code/Sub VI&apos;s/ATF_NS_Storage.vi"/>
-			<Item Name="ATF_PPSU control1.vi" Type="VI" URL="../../../SH_ATF_PROJECT_V2.4 FolderV2019/ATF Pumb Rig V2.4/Host/Source code/Sub VI&apos;s/PPSU Sub VIs/ATF_PPSU control1.vi"/>
-			<Item Name="ATF_PPSU control2.vi" Type="VI" URL="../../../SH_ATF_PROJECT_V2.4 FolderV2019/ATF Pumb Rig V2.4/Host/Source code/Sub VI&apos;s/PPSU Sub VIs/ATF_PPSU control2.vi"/>
-			<Item Name="ATF_PPSU OFF.vi" Type="VI" URL="../../../SH_ATF_PROJECT_V2.4 FolderV2019/ATF Pumb Rig V2.4/Host/Source code/Sub VI&apos;s/PPSU Sub VIs/ATF_PPSU OFF.vi"/>
-			<Item Name="ATF_PPSU ON.vi" Type="VI" URL="../../../SH_ATF_PROJECT_V2.4 FolderV2019/ATF Pumb Rig V2.4/Host/Source code/Sub VI&apos;s/PPSU Sub VIs/ATF_PPSU ON.vi"/>
-			<Item Name="ATF_Pump_DAQ.vi" Type="VI" URL="../Source Code/DAQ VIs/ATF_Pump_DAQ.vi"/>
-			<Item Name="call by reference.vi" Type="VI" URL="../Source Code/Sub VI&apos;s/call by reference.vi"/>
-			<Item Name="Create User Event - Stop.vi" Type="VI" URL="../../ATF_Storage/support/User Event - Stop/Create User Event - Stop.vi"/>
-			<Item Name="Datalogging_QUEUE.vi" Type="VI" URL="../Source Code/Sub VI&apos;s/Datalogging_QUEUE.vi"/>
-			<Item Name="Destroy User Event - Stop.vi" Type="VI" URL="../../ATF_Storage/support/User Event - Stop/Destroy User Event - Stop.vi"/>
-			<Item Name="Fire User Event - Stop.vi" Type="VI" URL="../../ATF_Storage/support/User Event - Stop/Fire User Event - Stop.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Main_global.vi" Type="VI" URL="../Source Code/Globals/Main_global.vi"/>
-			<Item Name="Monitor Synchronization1.vi" Type="VI" URL="../Source Code/DAQ VIs/Monitor Synchronization1.vi"/>
-			<Item Name="signal list.vi" Type="VI" URL="../Source Code/Sub VI&apos;s/signal list.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
