@@ -89,8 +89,7 @@
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="ATF1_ACQ.vi" Type="VI" URL="../Source Code/Globals/ATF1_ACQ.vi"/>
-			<Item Name="ATF_Enqueue Message.vi" Type="VI" URL="../Source Code/ATF_Queues/ATF_Enqueue Message.vi"/>
+			<Item Name="ATF_Enqueue Message.vi" Type="VI" URL="../Source code/ATF_Queues/ATF_Enqueue Message.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
