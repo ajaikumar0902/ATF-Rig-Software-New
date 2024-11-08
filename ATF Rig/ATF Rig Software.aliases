@@ -2,7 +2,7 @@
 ATF-Pump = "169.254.31.109"
 
 [ATF-Storage]
-ATF-Storage = "169.254.19.218"
+ATF-Storage = "169.254.219.4"
 
 [My Computer]
 My Computer = "192.168.0.104"

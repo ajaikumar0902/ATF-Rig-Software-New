@@ -1,12 +1,12 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="22308000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="varPersistentID:{4E4A46FD-B686-48D1-BBEC-16C1BB9173DE}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Datalog phase code</Property>
-	<Property Name="varPersistentID:{8010D9DA-89F6-4E4F-A209-52A3D4E51195}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Device list</Property>
-	<Property Name="varPersistentID:{83292AF1-8FC2-4135-8B9D-9291C4E178CE}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Start Stop log</Property>
-	<Property Name="varPersistentID:{DCCEE0E8-63D3-45DB-B66A-E62639724FAB}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Log Period</Property>
-	<Property Name="varPersistentID:{F1079F37-EB25-4B68-901D-02A1288A9738}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Continuous log?</Property>
-	<Property Name="varPersistentID:{FF722628-A3D3-4132-92F0-8A6B2C54EE67}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Configuration</Property>
+	<Property Name="varPersistentID:{2E087619-38AE-4A06-9B0D-FAEEF88AC684}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Datalog phase code</Property>
+	<Property Name="varPersistentID:{31629AA6-8845-40DC-9824-7FF86821C0EB}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Log Period</Property>
+	<Property Name="varPersistentID:{43F147C2-ADF2-498C-AB95-AC2395E4697F}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Continuous log?</Property>
+	<Property Name="varPersistentID:{4E3F2B3C-C414-4265-A6DC-645D6D48F3A8}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Start Stop log</Property>
+	<Property Name="varPersistentID:{59061787-36F3-4133-A572-EB8BE1D0AE49}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Configuration</Property>
+	<Property Name="varPersistentID:{5F51F451-F9CA-4FF2-886C-30422A698BD4}" Type="Ref">/ATF-Pump/Pumb PXie/Device.lvlib/Device list</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -410,9 +410,9 @@
 	</Item>
 	<Item Name="ATF-Storage" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">ATF-Storage</Property>
-		<Property Name="alias.value" Type="Str">169.254.19.218</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,79E0;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">79E0</Property>
+		<Property Name="alias.value" Type="Str">169.254.219.4</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,7A2A;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">7A2A</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
@@ -785,6 +785,10 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="AI Names.ctl" Type="VI" URL="../Storage cRIO/RT Controls/AI Names.ctl"/>
 			<Item Name="ATF Pump-Device List.vi" Type="VI" URL="../Pumb PXie/RT FGVs/ATF Pump-Device List.vi"/>
+			<Item Name="ATF-Pump-Create DO Waveform.vi" Type="VI" URL="../Pumb PXie/RT Support/RT SUB VIs/ATF-Pump-Create DO Waveform.vi"/>
+			<Item Name="ATF-Pump-DO Frequency  FGV.vi" Type="VI" URL="../Pumb PXie/RT Support/RT SUB VIs/ATF-Pump-DO Frequency  FGV.vi"/>
+			<Item Name="ATF-Pump-FGV Read write.ctl" Type="VI" URL="../Pumb PXie/RT Controls/ATF-Pump-FGV Read write.ctl"/>
+			<Item Name="ATF-Pump-RT_Global_R.vi" Type="VI" URL="../Pumb PXie/RT Support/ATF-Pump-RT_Global_R.vi"/>
 			<Item Name="ATF-Storage-AO_Element to WF.vi" Type="VI" URL="../Storage cRIO/Drive VIs/ATF-Storage-AO_Element to WF.vi"/>
 			<Item Name="Check loop Error_R.vi" Type="VI" URL="../Storage cRIO/RT Support/Check loop Error_R.vi"/>
 			<Item Name="Data FIFO.ctl" Type="VI" URL="../Storage cRIO/RT Controls/Data FIFO.ctl"/>
@@ -812,10 +816,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="RT_Global_R.vi" Type="VI" URL="../Storage cRIO/RT Support/RT_Global_R.vi"/>
 			<Item Name="SeCrTs-AO Data FGV.vi" Type="VI" URL="../Storage cRIO/RT FGVs/SeCrTs-AO Data FGV.vi"/>
-			<Item Name="SeCrTs-Create DO Waveform.vi" Type="VI" URL="../Pumb PXie/RT Support/RT SUB VIs/SeCrTs-Create DO Waveform.vi"/>
-			<Item Name="SeCrTs-DO Frequency  FGV.vi" Type="VI" URL="../Pumb PXie/RT Support/RT SUB VIs/SeCrTs-DO Frequency  FGV.vi"/>
-			<Item Name="SeCrTs-FGV Read write.ctl" Type="VI" URL="../Pumb PXie/RT Controls/SeCrTs-FGV Read write.ctl"/>
-			<Item Name="SeCrTs-RT_Global_R.vi" Type="VI" URL="../Pumb PXie/RT Support/SeCrTs-RT_Global_R.vi"/>
+			<Item Name="SeCrTs-DI SEQ MAIN.vi" Type="VI" URL="../Storage cRIO/RT Support/RT SUB VIs/SeCrTs-DI SEQ MAIN.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1211,6 +1212,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="RT_Global_R.vi" Type="VI" URL="../Pumb PXie/RT Support/RT_Global_R.vi"/>
+			<Item Name="SeCrTs-DI FGV.vi" Type="VI" URL="../Pumb PXie/RT FGVs/SeCrTs-DI FGV.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
