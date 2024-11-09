@@ -14,5 +14,5 @@
 	<Item Name="Dequeue Message.vi" Type="VI" URL="../Dequeue Message.vi"/>
 	<Item Name="All Message Queues.ctl" Type="VI" URL="../All Message Queues.ctl"/>
 	<Item Name="Message Cluster.ctl" Type="VI" URL="../Message Cluster.ctl"/>
-	<Item Name="Enqueue Error.vi" Type="VI" URL="../../../../../../../SeCrTS-Heavy-Retrofit/SeCrTS Heavy Retrofit/Source Code/UI Message Handler/Message Queue/Enqueue Error.vi"/>
+	<Item Name="Enqueue Error.vi" Type="VI" URL="../Enqueue Error.vi"/>
 </Library>

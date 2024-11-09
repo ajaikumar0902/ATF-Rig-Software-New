@@ -1,12 +1,12 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="22308000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="varPersistentID:{028881A6-8C38-4A60-A1BB-CD7781A909B8}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI's/Device.lvlib/Configuration</Property>
-	<Property Name="varPersistentID:{552E9474-2CFC-4222-986D-816E6929344D}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI's/Device.lvlib/Continuous log?</Property>
-	<Property Name="varPersistentID:{76AA7CEB-5D87-4218-867E-5F12F40F2C3D}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI's/Device.lvlib/Device list</Property>
-	<Property Name="varPersistentID:{78EB7A60-EEAF-4A05-BDF4-285BF79AA70F}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI's/Device.lvlib/Datalog phase code</Property>
-	<Property Name="varPersistentID:{9E980FA9-3663-43B9-995C-B013EF77BB54}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI's/Device.lvlib/Start Stop log</Property>
-	<Property Name="varPersistentID:{DFE6627C-CA11-4E41-8502-8C60BDD5CB30}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI's/Device.lvlib/Log Period</Property>
+	<Property Name="varPersistentID:{0D2214E3-F2D8-4EDC-9F8F-5DA372CB36CF}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI_s/Device.lvlib/Datalog phase code</Property>
+	<Property Name="varPersistentID:{8510FA54-1AA2-4666-A698-C2EFDB382317}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI_s/Device.lvlib/Continuous log?</Property>
+	<Property Name="varPersistentID:{88798741-3943-4EFE-BFD1-0FA0215400D4}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI_s/Device.lvlib/Device list</Property>
+	<Property Name="varPersistentID:{A3B79544-17FF-4181-9655-32E2233739F8}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI_s/Device.lvlib/Configuration</Property>
+	<Property Name="varPersistentID:{A54ADEA9-42D7-4788-A9D1-66E0F0F5D2EA}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI_s/Device.lvlib/Log Period</Property>
+	<Property Name="varPersistentID:{C2F7BF61-F63F-42BD-8477-3903E6F17DA9}" Type="Ref">/My Computer/ATF Display And Datalog/Source Code/Sub VI_s/Device.lvlib/Start Stop log</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
