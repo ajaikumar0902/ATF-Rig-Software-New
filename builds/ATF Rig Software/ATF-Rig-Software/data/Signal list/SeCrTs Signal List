@@ -1,0 +1,35 @@
+AI,DI,AO,DO,TC,SG,ACC
+F_PT_1019,NC_EPV_1004_HSS,TCV_1018,NC_EPV_1004,TC1,,DH
+F_RTD_1013,NC_EPV_1008_HSS,,NC_EPV_1008,TC2,,NDV
+F_PT_1013a,NO_EPV_1091_HSS,,NO_EPV_1091,TC3,,NDH
+F_PT_1013b,NC_EPV_1217_HSS,,NC_EPV_1217,TC4,,DV
+F_PT_1011a,NO_EPV_1102_HSS,,NC_EPV_1211,TC5,,NDA
+F_PT_1011b,NC_EPV_1211_HSS,,NO_EPV_1102,TC6,,DA
+F_SC_RTD,NC_EPV_1214_HSS,,NC_EPV_1214,TC7,,
+W_RTD_1177,NO_EPV_1207_HSS,,NO_EPV_1207,TC8,,
+N_PT_1090,ATF_Incomer1,,Gate_driver_power,NDEBT,,
+TCV_1018(FB),ATF_Incomer2,,MCU_reset,Motor Outer,,
+F_FM_1010,ATF_Incomer3,,ADS_reset,DEBT,,
+F_PT_SC,ATF_Incomer4,,AC_Button,,,
+PT 1000_2,ATF_Incomer4R,,,,,
+PT_1000 ,Engine_Incomer1,,,,,
+N_PT_1101,Engine_Incomer2,,,,,
+N_PT_1210,Engine_Incomer4,,,,,
+W_PT_1212,EPV_Contactor,,,,,
+F_RTD_1212,,,,,,
+Tank_6,,,,,,
+Vdc,,,,,,
+Vrms1,,,,,,
+Vrms2,,,,,,
+Vrms3,,,,,,
+Idc,,,,,,
+Irms1,,,,,,
+Irms2,,,,,,
+Irms3,,,,,,
+PT_1,,,,,,
+PT_2,,,,,,
+PT_3,,,,,,
+PT_4,,,,,,
+PT_5,,,,,,
+PT_6,,,,,,
+,,,,,,
