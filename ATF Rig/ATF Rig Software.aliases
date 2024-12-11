@@ -2,10 +2,10 @@
 ATF-Pump = "169.254.31.109"
 
 [ATF-Storage]
-ATF-Storage = "169.254.219.4"
+ATF-Storage = "169.254.43.232"
 
 [My Computer]
-My Computer = "192.168.0.103"
+My Computer = "127.0.0.1"
 
 [NI-cRIO-9057-020DAE56]
 NI-cRIO-9057-020DAE56 = "169.254.19.218"
